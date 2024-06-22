@@ -1,0 +1,19 @@
+[package]
+name = "wfcp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+colored = "2.1.0"
+fastrand = "2.1.0"
+image = "0.25.1"
+log = "0.4.21"
+once_cell = "1.19.0"
+rapier3d = "0.18.0"
+serde = "1.0.203"
+tempfile = "3.10.1"
+tiny-game-framework = "0.0.162"
+tokio = { version = "1.38.0", features = ["full"] }
+uuid = "1.8.0"
+wave-function-collapse = "0.2.0"
